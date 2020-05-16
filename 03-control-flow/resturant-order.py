@@ -4,7 +4,7 @@
 # purpose: show the different decision and control of the program flow in python
 #########
 
-### This program simulate a restaurant casher order
+### This program simulate a restaurant cashier order
 
 menu = {1: ("rice",3500), 2: ("pasta",4500), 3: ("steak",11000), 4: ("fired chicken",9550), 5: ("green salad",5000), 6: ("lemon juice",2575), 7: ("water bottle",1500)}
 
@@ -40,6 +40,4 @@ for o in order:
 
 print(f"\nThe total price is  {float(total / 100)}")
 print("Thank you :-)")
-
-# Show the order and the total price
 
