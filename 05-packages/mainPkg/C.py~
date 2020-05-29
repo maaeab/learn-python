@@ -1,2 +1,0 @@
-def c():
-    print("this is c")

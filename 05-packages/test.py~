@@ -1,4 +1,0 @@
-from mainPkg.mainPkg import *
-A.A()
-B.B()
-C.C()
