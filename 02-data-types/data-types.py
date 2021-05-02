@@ -1,18 +1,21 @@
 ############ Numbers can be int, long, float or complex
 x = 5
 y = 7.0
+yy = 7_000_999
 z = 3+2j
 i,j = 0,10
 print ("This is an integer x: ", x)
-print ("This is a float z: ", z)
-print (f"This is a complex i: {i}, j: {j}")
+print ("This is a float y: ", y)
+print ("This is another flost yy: ", yy)
+print (f"This is a complex z : {z}")
+print (f"This is a integers i: {i}, and j: {j}")
 
 
 ############ Strings
 myStr = "My name is Moemen Ahmed, I just love coding!"
 print("Name: " + myStr[11:23])
 print(myStr[-19:])
-
+print(f"{myStr}") 
 
 ############ Lists -- lists are arrays in other languages
 myList1 = [1, 2, 3]
@@ -104,11 +107,11 @@ set3 = set((1,2,1,2,3,4,5))
 print(f"set3 from a tuple: {set3}")
 
 # converting a dict to a set - notice that keys are graped automatically
-set4 = set({"a":1, "b":2, "c":3, "a":1, "d":2})
+set4 = set({"a":1, "b":2, "c":3, "d":2})
 print(f"set4 from a dictionary: {set4}")
 
 # converting a dict.values() to a set 
-set5 = set({"a":1, "b":2, "c":3, "a":1, "d":2}.values())
+set5 = set({"a":1, "b":2, "c":3, "d":2}.values())
 print(f"set4 from a dictionary: {set5}")
 
 

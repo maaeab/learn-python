@@ -17,8 +17,13 @@ for item in menu:
 order = {}
 
 # ask for choices
-o = int(input("Enter your choice, or press enter to proceed. "))
-while (o != ""):
+try:
+    o = int(input("Enter your choice, or press enter to proceed. "))
+except:
+    print("An error occured! this program shall terminate now.")
+    exit()
+
+while (o != "")i
     o = int(o)
     if o in order:
         order[o] += 1
